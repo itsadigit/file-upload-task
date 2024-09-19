@@ -1,0 +1,124 @@
+/* FileUpload.css */
+.file-upload-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-top: 10px;
+}
+
+.file-upload-container h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.file-upload-container input[type="file"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px dashed #007bff;
+  border-radius: 6px;
+  background-color: #f4f4f9;
+  width: 100%;
+  cursor: pointer;
+}
+
+.file-upload-container input[type="text"] {
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.file-upload-container .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-upload-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.file-upload-container button:hover {
+  background-color: #0056b3;
+}
+
+.file-upload-container p {
+  margin-top: 15px;
+}
+
+.file-id-display {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.progress-bar {
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* Custom File Upload Button */
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none; 
+}
+
+.file-name {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.audio-player-container,
+.video-player-container {
+  margin-top: 20px;
+}
+
+audio,
+video {
+  width: 100%;
+  max-width: 600px;
+  outline: none;
+  border: none;
+}
